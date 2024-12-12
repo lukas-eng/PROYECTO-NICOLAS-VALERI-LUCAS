@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sedes</title>
+    <link rel="stylesheet" href="/css/estilo2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Playwrite+HR+Lijeva:wght@100..400&display=swap" rel="stylesheet">
+</head>
+<body style="background-color: beige;">
+    <div class="contenedor">
+        <div class="contenido">
+            <div class="logotipo">
+                <a href="/html/index.html"><img src="/IMG/Latriologiagourmet.jpeg"style="border-radius: 35px; margin-top: 8px;" width="200px"; height="200px" alt="logo"></a>
+            </div>
+            <div class="barra">
+                <nav>
+                    <ul>
+                        <li><a href="/html/nosotros.html">Nosotros</a></li>
+                        <li><a href="/html/Sedes.html">Sedes</a></li>
+                        <li><a href="/html/reservas.html">Reservas</a></li>
+                        <a href="/html/contacto.html"><li>Contacto</li></a> 
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class=" contenedor3">
+            <br>
+            <h2 style="text-align: center; font-family: Arial, Helvetica, sans-serif; font-weight: lighter;font-size: 250%;">
+               Sedes</h2>
+               <br>
+                
+                <label for="city" class="seleccioneciudad" style="font-size: 20px;">Seleccione la ciudad</label>
+                <select id="city" onchange="navigateToCity()">
+                    <option value="sedes.html">Todas</option>
+                    <option value="bogota.html">Bogotá</option>
+                    <option value="medellin.html">Medellín</option>
+                    <option value="cali.html">Cali</option>
+                </select>
+                
+                <h1 class="bogota">Bogotá</h1>
+                <hr class="linea">
+               <div class="contenido3">
+                    <div class="sedes">
+                        <div >
+                            <img src="/img/sedebogota1.jpeg" style="padding: 0%; width:300px">
+                        </div>
+                        <div style="padding-left: 5%;">
+                            <h2 style="text-align: left; font-family: Arial, Helvetica, sans-serif; font-weight: lighter;">
+                                <strong>Sede Principal</strong></h2>
+                            
+                            <p style=" text-align:left"><strong>Dirección:</strong> Calle 58 # 8-32, Bogotá</p>
+                            
+                            <p style="text-align: left"><strong>Descripción:</strong> Aqui encontraras una decoración moderna y elegante, es el lugar ideal para deleitarte con platos gourmet preparados con ingredientes frescos y de la más alta calidad.</p>
+                        </div>
+                        <div style="display: flex; gap: 20px; width:max-content; margin-left: auto; margin-right: auto;">
+
+                            <div style="display: flex;  margin:2px;  gap:12px;">
+                                <img class="entretenimiento" src="/IMG/parking-de-bicicletas.png">
+                            </div>
+                            <div style="display: flex; margin:2px;  gap:12px;">
+                                <img class="entretenimiento"  src="/IMG/estacionamiento.png">
+                            </div>
+                            <div style="display: flex; margin:2px;  gap:12px;">
+                                <img class="entretenimiento"  src="/IMG/karts.png">
+                            </div>
+                           
+                           
+                        </div>
+                        <div>
+                            <a href="sedeprincipal.html"><button>MÁS INFORMACIÓN </button></a>
+                           
+                        </div>
+
+                    </div>
+                    <div class="sedes1" >
+                        <div>
+                            <img src="/img/sedebogota2.jpeg" style="padding: 0%; width:300px">
+                        </div>
+                        <div style="padding-left: 5%;">
+                            <h2 style="text-align: left; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: lighter;">
+                                <strong>Sede Zona T</strong></h2>
+                            
+                                <p style=" text-align:left"><strong>Dirección:</strong> Carrera 13 # 75-52, Bogotá</p>
+                            
+                                <p style="text-align: left"><strong>Descripción:</strong> Disfruta de una carta innovadora, llena de sabores internacionales y locales que sorprenderán a tu paladar y te quedaras con mas ganas</p>
+                            </div>
+                            <div style="display: flex; gap: 20px; width:max-content; margin-left: auto; margin-right: auto;">
+    
+                                <div style="display: flex;  margin:2px;  gap:12px;">
+                                    <img class="entretenimiento" src="/IMG/parking-de-bicicletas.png">
+                                </div>
+                                <div style="display: flex; margin:2px;  gap:12px;">
+                                    <img class="entretenimiento"  src="/IMG/estacionamiento.png">
+                                </div>
+                                <div style="display: flex; margin:2px;  gap:12px;">
+                                    <img class="entretenimiento"  src="/IMG/terraza.png">
+                                </div>
+                                
+                           
+                           
+                        </div>
+                        <div>
+                            <a href="sedeZonaT.html"><button>MÁS INFORMACIÓN </button></a>
+                           
+                        </div>
+                 
+            
+                    </div>
+                    <div class="sedes2" >
+                        <div>
+                            <img src="/img/sedebogota3.jpeg" style="padding: 0%; width:300px">
+                        </div>
+                        <div style="padding-left: 5%;">
+                            <h2 style="text-align: left; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: lighter;">
+                                <strong>Sede Chapinero</strong></h2>
+                            
+                                <p style=" text-align:left"><strong>Dirección:</strong>Calle 93 # 19-04, Bogotá</p>
+                            
+                                <p style="text-align: left"><strong>Descripción:</strong> En el vibrante barrio de Chapinero, nuestra sede te ofrece una experiencia gastronómica inigualable en un ambiente contemporáneo y acogedor.</p>
+                            </div>
+                            <div style="display: flex; gap: 20px; width:max-content; margin-left: auto; margin-right: auto;">
+    
+                                <div style="display: flex;  margin:2px;  gap:12px;">
+                                    <img class="entretenimiento" src="/IMG/parking-de-bicicletas.png">
+                                </div>
+                                <div style="display: flex; margin:2px;  gap:12px;">
+                                    <img class="entretenimiento"  src="/IMG/xbox.png">
+                                </div>
+                                <div style="display: flex; margin:2px;  gap:12px;">
+                                    <img class="entretenimiento"  src="/IMG/karts.png">
+                                </div>
+                        </div>
+                        <div>
+                            <a href="sedechapinero.html"><button type="submit">MÁS INFORMACIÓN </button></a>
+                      
+                        </div>
+                        
+                    </div>
+                    
+            </div>
+        </div>
+        <br><br><br>
+        <div class="contenido3">
+            <div class="sedes">
+                <div >
+                    <img src="/img/sedebogota4.jpeg" style="padding: 0%; width:300px">
+                </div>
+                <div style="padding-left: 5%;">
+                    <h2 style="text-align: left; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: lighter;">
+                        <strong>Sede Centro Mayor</strong></h2>
+                    
+                        <p style=" text-align:left"><strong>Dirección:</strong> Calle 30 # 6-20, Bogotá</p>
+                            
+                        <p style="text-align: left"><strong>Descripción:</strong> conocida por su oferta gastronómica de primer nivel, complementa perfectamente nuestra propuesta, ofreciéndote un espacio perfecto para compartir una velada especial con amigos, familiares.</p>
+                    </div>
+                    <div style="display: flex; gap: 20px; width:max-content; margin-left: auto; margin-right: auto;">
+
+                        <div style="display: flex;  margin:2px;  gap:12px;">
+                            <img class="entretenimiento" src="/IMG/parking-de-bicicletas.png">
+                        </div>
+                        <div style="display: flex; margin:2px;  gap:12px;">
+                            <img class="entretenimiento"  src="/IMG/estacionamiento.png">
+                        </div>
+                        <div style="display: flex; margin:2px;  gap:12px;">
+                      
+                        </div>
+                   
+                   
+                </div>
+                <div>
+                    <a href="sedeCentromayor.html"><button>MÁS INFORMACIÓN </button></a>
+                   
+                </div>
+
+            </div>
+            <div class="sedes1" >
+                <div>
+                    <img src="/img/sedebogota5.jpeg" style="padding: 0%; width:300px">
+                </div>
+                <div style="padding-left: 5%;">
+                    <h2 style="text-align: left; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: lighter;">
+                        <strong>Sede Usaquén</strong></h2>
+                    
+                        <p style=" text-align:left"><strong>Dirección:</strong> Calle 100 # 15-22, Bogotá</p>
+                            
+                        <p style="text-align: left"><strong>Descripción:</strong> La sede está diseñada para crear una atmósfera íntima y acogedora, ideal para cenas románticas, celebraciones familiares o eventos privados en un entorno lleno de encanto y sofisticación</p>
+                    </div>
+                    <div style="display: flex; gap: 20px; width:max-content; margin-left: auto; margin-right: auto;">
+
+                        <div style="display: flex;  margin:2px;  gap:12px;">
+                            <img class="entretenimiento" src="/IMG/parking-de-bicicletas.png">
+                        </div>
+                        <div style="display: flex; margin:2px;  gap:12px;">
+                            <img class="entretenimiento"  src="/IMG/estacionamiento.png">
+                        </div>
+                        <div style="display: flex; margin:2px;  gap:12px;">
+                            <img class="entretenimiento"  src="/IMG/patio-de-recreo.png">
+                        </div>
+                   
+                   
+                </div>
+                <div>
+                    <a href="sedeUsaquen.html"><button>MÁS INFORMACIÓN </button></a>
+                   
+                </div>
+         
+            </div>
+            <div class="sedes2" >
+                <div>
+                    <img src="/img/sedebogota6.jpeg" style="padding: 0%; width:300px">
+                </div>
+                <div style="padding-left: 5%;">
+                    <h2 style="text-align: left; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: lighter;">
+                        <strong>Sede La Macarena</strong></h2>
+                    
+                        <p style=" text-align:left"><strong>Dirección:</strong> Carrera 2 # 27-25, Bogotá</p>
+                            
+                        <p style="text-align: left"><strong>Descripción:</strong> La ubicación, cerca de importantes puntos culturales, hace de esta sede un destino perfecto para disfrutar de una comida sofisticada mientras exploras lo mejor de la vida en Bogotá.</p>
+                    </div>
+                    <div style="display: flex; gap: 20px; width:max-content; margin-left: auto; margin-right: auto;">
+
+                        <div style="display: flex;  margin:2px;  gap:12px;">
+                            <img class="entretenimiento" src="/IMG/xbox.png">
+                        </div>
+                        <div style="display: flex; margin:2px;  gap:12px;">
+                            <img class="entretenimiento"  src="/IMG/patio-de-recreo.png">
+                        </div>
+                        <div style="display: flex; margin:2px;  gap:12px;">
+                            <img class="entretenimiento"  src="/IMG/karts.png">
+                        </div>
+                   
+                   
+                </div>
+                <div>
+                    <a href="sedelamacarena.html"><button type="submit">MÁS INFORMACIÓN </button></a>
+              
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+        <h1 class="medellin">Medellín</h1>
+        <hr class="linea">
+        <div class="contenido3">
+            <div class="sedes">
+                <div >
+                    <img src="/img/sedemedellin1.jpeg" style="padding: 0%; width:300px">
+                </div>
+                <div style="padding-left: 5%;">
+                    <h2 style="text-align: left; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: lighter;">
+                        <strong>Sede El Poblado</strong></h2>
+                    
+                        <p style=" text-align:left"><strong>Dirección:</strong> Carrera 70 con 14 # 16-24, Medellín</p>
+                            
+                        <p style="text-align: left"><strong>Descripción:</strong>En el exclusivo barrio de El Poblado, nuestra sede ofrece una experiencia culinaria de alta gama en un ambiente moderno y elegante. Con una carta que fusiona sabores nacionales e internacionales</p>
+                    </div>
+                    <div style="display: flex; gap: 20px; width:max-content; margin-left: auto; margin-right: auto;">
+
+                        <div style="display: flex;  margin:2px;  gap:12px;">
+                            <img class="entretenimiento" src="/IMG/estacionamiento.png">
+                        </div>
+                        <div style="display: flex; margin:2px;  gap:12px;">
+                            <img class="entretenimiento"  src="/IMG/terraza.png">
+                        </div>
+                        <div style="display: flex; margin:2px;  gap:12px;">
+                            <img class="entretenimiento"  src="/IMG/xbox.png">
+                        </div>
+                </div>
+                <div>
+                    <a href="sedeelpoblado.html"><button>MÁS INFORMACIÓN </button></a> 
+                </div>
+            </div>
+            <div class="sedes1" >
+                <div>
+                    <img src="/img/sedemedellin2.jpeg" style="padding: 0%; width:300px">
+                </div>
+                <div style="padding-left: 5%;">
+                    <h2 style="text-align: left; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: lighter;">
+                        <strong>Sede Laureles</strong></h2>
+                    
+                        <p style=" text-align:left"><strong>Dirección:</strong> Avenida Poblado # 11-80, Medellín</p>
+                            
+                        <p style="text-align: left"><strong>Descripción:</strong> El ambiente relajado y sofisticado, Ya sea para un almuerzo en familia o una noche de tapas con amigos, esta sede te ofrece una experiencia gourmet única en el corazón de Medellín.</p>
+                    </div>
+                    <div style="display: flex; gap: 20px; width:max-content; margin-left: auto; margin-right: auto;">
+
+                        <div style="display: flex;  margin:2px;  gap:12px;">
+                            <img class="entretenimiento" src="/IMG/parking-de-bicicletas.png">
+                        </div>
+                        <div style="display: flex; margin:2px;  gap:12px;">
+                            <img class="entretenimiento"  src="/IMG/estacionamiento.png">
+                        </div>
+                        <div style="display: flex; margin:2px;  gap:12px;">
+                            <img class="entretenimiento"  src="/IMG/patio-de-recreo.png">
+                        </div>
+                </div>
+                <div>
+                    <a href="sedelaureles.html"><button>MÁS INFORMACIÓN </button></a> 
+                </div>
+            </div>
+            <div class="sedes2" >
+                <div>
+                    <img src="/img/sedemedellin3.jpeg" style="padding: 0%; width:300px">
+                </div>
+                <div style="padding-left: 5%;">
+                    <h2 style="text-align: left; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: lighter;">
+                        <strong>Sede Milla de Oro</strong></h2>
+                    
+                    <p style=" text-align:left"><strong>Dirección:</strong> Avenida Poblado # 100-9, Medellín</p>
+                            
+                    <p style="text-align: left"><strong>Descripción:</strong> En el epicentro financiero y comercial de Medellín, nuestra sede en la Milla de Oro ofrece una experiencia gastronómica exclusiva. Con un diseño elegante y un ambiente sofisticado.</p>
+                </div>
+                <div style="display: flex; gap: 20px; width:max-content; margin-left: auto; margin-right: auto;">
+
+                    <div style="display: flex;  margin:2px;  gap:12px;">
+                        <img class="entretenimiento" src="/IMG/parking-de-bicicletas.png">
+                    </div>
+                    <div style="display: flex; margin:2px;  gap:12px;">
+                        <img class="entretenimiento"  src="/IMG/patio-de-recreo.png">
+                    </div>
+                    <div style="display: flex; margin:2px;  gap:12px;">
+                        <img class="entretenimiento"  src="/IMG/karts.png">
+                    </div>
+                </div>
+                <div>
+                    <a href="sedemilladeoro.html"><button type="submit">MÁS INFORMACIÓN </button></a>
+                </div> 
+            </div>
+        </div>
+        <br><br><br><br><br>
+        <div class="contenido3">
+            <div class="sedes">
+                <div >
+                    <img src="/img/sedemedellin4.jpeg" style="padding: 0%; width:300px">
+                </div>
+                <div style="padding-left: 5%;">
+                    <h2 style="text-align: left; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: lighter;">
+                        <strong>Sede San Fernando</strong></h2>
+                    
+                        <p style=" text-align:left"><strong>Dirección:</strong> Calle 45 # 9-11, Medellín</p>
+                            
+                        <p style="text-align: left"><strong>Descripción:</strong> Con un ambiente íntimo y un excelente servicio, esta sede es ideal para quienes buscan una experiencia gourmet auténtica y cercana, ya sea para una cena especial o una reunión casual.</p>
+                    </div>
+                    <div style="display: flex; gap: 20px; width:max-content; margin-left: auto; margin-right: auto;">
+
+                        <div style="display: flex;  margin:2px;  gap:12px;">
+                            <img class="entretenimiento" src="/IMG/estacionamiento.png">
+                        </div>
+                        <div style="display: flex; margin:2px;  gap:12px;">
+                            <img class="entretenimiento"  src="/IMG/xbox.png">
+                        </div>
+                        <div style="display: flex; margin:2px;  gap:12px;">
+                            <img class="entretenimiento"  src="/IMG/karts.png">
+                        </div>
+                </div>
+                <div>
+                    <a href="sedesanfernando.html"><button>MÁS INFORMACIÓN </button></a>
+                   
+                </div>
+
+            </div>
+            <div class="sedes1" >
+                <div>
+                    <img src="/img/sedemedellin5.jpeg" style="padding: 0%; width:300px">
+                </div>
+                <div style="padding-left: 5%;">
+                    <h2 style="text-align: left; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: lighter;">
+                        <strong>Sede Envigado</strong></h2>
+                    
+                        <p style=" text-align:left"><strong>Dirección:</strong> Calle 23 # 10-15, Medellín</p>
+                            
+                        <p style="text-align: left"><strong>Descripción:</strong> En la tranquila y pintoresca zona de Envigado, nuestra sede ofrece un oasis gastronómico donde el sabor y la creatividad se combinan en cada plato. Con un ambiente relajado y moderno</p>
+                    </div>
+                    <div style="display: flex; gap: 20px; width:max-content; margin-left: auto; margin-right: auto;">
+
+                        <div style="display: flex;  margin:2px;  gap:12px;">
+                            <img class="entretenimiento" src="/IMG/xbox.png">
+                        </div>
+                        <div style="display: flex; margin:2px;  gap:12px;">
+                            <img class="entretenimiento"  src="/IMG/karts.png">
+                        </div>
+                </div>
+                <div>
+                    <a href="sedeenvigado.html"><button>MÁS INFORMACIÓN </button></a>
+                   
+                </div>
+         
+    
+            </div>
+            <div class="sedes2" >
+                <div>
+                    <img src="/img/sedemedellin6.jpeg" style="padding: 0%; width:300px">
+                </div>
+                <div style="padding-left: 5%;">
+                    <h2 style="text-align: left; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: lighter;">
+                        <strong>Sede Poblado</strong></h2>
+                    
+                        <p style=" text-align:left"><strong>Dirección:</strong> Carrera 43 # 5A-23, Medellín</p>
+                            
+                        <p style="text-align: left"><strong>Descripción:</strong> Con una propuesta culinaria que destaca lo mejor de los ingredientes frescos y locales, cada plato es una celebración de los sabores más auténticos. Disfruta de una experiencia culinaria inigualable</p>
+                    </div>
+                    <div style="display: flex; gap: 20px; width:max-content; margin-left: auto; margin-right: auto;">
+
+                        <div style="display: flex;  margin:2px;  gap:12px;">
+                            <img class="entretenimiento" src="/IMG/parking-de-bicicletas.png">
+                        </div>
+                        <div style="display: flex; margin:2px;  gap:12px;">
+                            <img class="entretenimiento"  src="/IMG/estacionamiento.png">
+                        </div>
+                </div>
+                <div>
+                    <a href="sedepoblado.html"><button type="submit">MÁS INFORMACIÓN </button></a>
+                </div>  
+            </div>
+        </div>
+        <br><br><br>
+        <h1 class="cali">Cali</h1>
+        <hr class="linea">
+        <div class="contenido3">
+            <div class="sedes">
+                <div >
+                    <img src="/img/sedecali1.jpeg" style="padding: 0%; width:300px">
+                </div>
+                <div style="padding-left: 5%;">
+                    <h2 style="text-align: left; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: lighter;">
+                        <strong>Sede Centro</strong></h2>
+                    
+                    <p style=" text-align:left"><strong>Dirección:</strong> Calle 5 # 14-21 Avenida 1, Cali</p>
+                            
+                            <p style="text-align: left"><strong>Descripción:</strong>  Ubicada en el corazón del centro de Cali, nuestra sede te invita a disfrutar de una experiencia gastronómica única en un ambiente contemporáneo y elegante. Con una propuesta culinaria que fusiona lo mejor de la cocina local</p>
+                        </div>
+                        <div style="display: flex; gap: 20px; width:max-content; margin-left: auto; margin-right: auto;">
+
+                            <div style="display: flex;  margin:2px;  gap:12px;">
+                                <img class="entretenimiento" src="/IMG/estacionamiento.png">
+                            </div>
+                            <div style="display: flex; margin:2px;  gap:12px;">
+                                <img class="entretenimiento"  src="/IMG/terraza.png">
+                            </div>
+                </div>
+                <div>
+                    <a href="sedecentro.html"><button>MÁS INFORMACIÓN </button></a>
+                   
+                </div>
+
+            </div>
+            <div class="sedes1" >
+                <div>
+                    <img src="/img/sedecali2.jpeg" style="padding: 0%; width:300px">
+                </div>
+                <div style="padding-left: 5%;">
+                    <h2 style="text-align: left; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: lighter;">
+                        <strong>Sede Valle del Lili</strong></h2>
+                    
+                        <p style=" text-align:left"><strong>Dirección:</strong> Avenida 6 # 23-09 calle 20, Cali</p>
+                            
+                        <p style="text-align: left"><strong>Descripción:</strong> Lugar ideal para disfrutar de una propuesta gourmet en un espacio íntimo y acogedor. Perfecta para reuniones familiares, cenas románticas o una noche con amigos, aquí encontrarás una experiencia culinaria que supera las expectativas.</p>
+                    </div>
+                    <div style="display: flex; gap: 20px; width:max-content; margin-left: auto; margin-right: auto;">
+
+                        <div style="display: flex;  margin:2px;  gap:12px;">
+                            <img class="entretenimiento" src="/IMG/parking-de-bicicletas.png">
+                        </div>
+                        <div style="display: flex; margin:2px;  gap:12px;">
+                            <img class="entretenimiento"  src="/IMG/terraza.png">
+                        </div>
+                        <div style="display: flex; margin:2px;  gap:12px;">
+                            <img class="entretenimiento"  src="/IMG/xbox.png">
+                        </div>
+                </div>
+                <div>
+                    <a href="sedevalledelili.html"><button>MÁS INFORMACIÓN </button></a>
+                   
+                </div>
+         
+            </div>
+            <div class="sedes2" >
+                <div>
+                    <img src="/img/sedecali3.jpeg" style="padding: 0%; width:300px">
+                </div>
+                <div style="padding-left: 5%;">
+                    <h2 style="text-align: left; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: lighter;">
+                        <strong>Sede Chipichape</strong></h2>
+                    
+                        <p style=" text-align:left"><strong>Dirección:</strong> Avenida de las Américas # 35-08, Cali</p>
+                            
+                        <p style="text-align: left"><strong>Descripción:</strong> Dentro del moderno centro comercial Chipichape, nuestra sede ofrece una experiencia culinaria de primer nivel en un entorno vibrante y lleno de estilo. Con un menú innovador que resalta los sabores locales y nacionales</p>
+                    </div>
+                    <div style="display: flex; gap: 20px; width:max-content; margin-left: auto; margin-right: auto;">
+
+                        <div style="display: flex;  margin:2px;  gap:12px;">
+                            <img class="entretenimiento" src="/IMG/patio-de-recreo.png">
+                        </div>
+                        <div style="display: flex; margin:2px;  gap:12px;">
+                            <img class="entretenimiento"  src="/IMG/xbox.png">
+                        </div>
+                </div>
+                <div>
+                    <a href="sedechichape.html"><button type="submit">MÁS INFORMACIÓN </button></a>
+                </div>
+            </div>
+        </div>
+        <br><br><br><br><br><br>
+        <div class="contenido3">
+            <div class="sedes">
+                <div >
+                    <img src="/img/sedecali4.jpeg" style="padding: 0%; width:300px">
+                </div>
+                <div style="padding-left: 5%;">
+                    <h2 style="text-align: left; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: lighter;">
+                        <strong>Sede La Flora</strong></h2>
+                    
+                        <p style=" text-align:left"><strong>Dirección:</strong> Carrera 46 # 9-25, Cali</p>
+                            
+                        <p style="text-align: left"><strong>Descripción:</strong> Este lugar es perfecto para disfrutar de una experiencia gourmet en un entorno relajado. Ideal para cenas familiares o reuniones de negocios, aquí te espera un servicio impecable y platos que sorprenden en cada bocado.</p>
+                    </div>
+                    <div style="display: flex; gap: 20px; width:max-content; margin-left: auto; margin-right: auto;">
+
+                        <div style="display: flex;  margin:2px;  gap:12px;">
+                            <img class="entretenimiento" src="/IMG/parking-de-bicicletas.png">
+                        </div>
+                        <div style="display: flex; margin:2px;  gap:12px;">
+                            <img class="entretenimiento"  src="/IMG/estacionamiento.png">
+                        </div>
+                        <div style="display: flex; margin:2px;  gap:12px;">
+                            <img class="entretenimiento"  src="/IMG/karts.png">
+                        </div>
+                </div>
+                <div>
+                    <a href="sedelaflora.html"><button>MÁS INFORMACIÓN </button></a> 
+                </div>
+            </div>
+            <div class="sedes2" >
+                <div>
+                    <img src="/img/sedecali5.jpeg" style="padding: 0%; width:300px">
+                </div>
+                <div style="padding-left: 5%;">
+                    <h2 style="text-align: left; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: lighter;">
+                        <strong>Sede La 14</strong></h2>
+                    
+                        <p style=" text-align:left"><strong>Dirección:</strong> Sede La 14</p>
+                            
+                        <p style="text-align: left"><strong>Descripción:</strong> Ubicada en la zona de mayor actividad comercial, nuestra sede La 14 es ideal para disfrutar de platos gourmet mientras te sumerges en la dinámica de la ciudad. Con un ambiente moderno</p>
+                    </div>
+                    <div style="display: flex; gap: 20px; width:max-content; margin-left: auto; margin-right: auto;">
+
+                        <div style="display: flex;  margin:2px;  gap:12px;">
+                            <img class="entretenimiento" src="/IMG/parking-de-bicicletas.png">
+                        </div>
+                        <div style="display: flex; margin:2px;  gap:12px;">
+                            <img class="entretenimiento"  src="/IMG/estacionamiento.png">
+                        </div>
+                        <div style="display: flex; margin:2px;  gap:12px;">
+                            <img class="entretenimiento"  src="/IMG/karts.png">
+                        </div>
+                </div>
+                <div>
+                    <a href="sedela14.html"><button type="submit">MÁS INFORMACIÓN </button></a>
+                </div>
+            </div>
+            <div class="sedes2" >
+                <div>
+                    <img src="/img/sedecali6.jpeg" style="padding: 0%; width:300px">
+                </div>
+                <div style="padding-left: 5%;">
+                    <h2 style="text-align: left; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: lighter;">
+                        <strong>Sede Alameda</strong></h2>
+                    
+                        <p style=" text-align:left"><strong>Dirección:</strong>Carrera 50 # 11-20, Cali</p>
+                            
+                        <p style="text-align: left"><strong>Descripción:</strong> El ambiente tranquilo y sofisticado hace de esta sede el lugar ideal para una comida relajada, mientras disfrutas de la creatividad de nuestros chefs y la calidad de nuestro servicio.</p>
+                    </div>
+                    <div style="display: flex; gap: 20px; width:max-content; margin-left: auto; margin-right: auto;">
+
+                        <div style="display: flex;  margin:2px;  gap:12px;">
+                            <img class="entretenimiento" src="/IMG/parking-de-bicicletas.png">
+                        </div>
+                        <div style="display: flex; margin:2px;  gap:12px;">
+                            <img class="entretenimiento"  src="/IMG/terraza.png">
+                        </div>
+                        <div style="display: flex; margin:2px;  gap:12px;">
+                            <img class="entretenimiento"  src="/IMG/xbox.png">
+                        </div>
+                </div>
+                <div>
+                    <a href="sedealamenda.html"><button type="submit">MÁS INFORMACIÓN </button></a>
+                </div>
+            </div>
+ 
+ 
+        </div>
+    </div>
+    <br><br><br><br><br><br>
+    <footer>
+        <ul>
+            <li><a href="/html/nosotros.html">Nosotros</a></li>
+            <li><a href="/html/Sedes.html">Anuncios</a></li>
+            <li><a href="/html/reservas.html">Blog</a></li>
+            <a href="/html/contacto.html"><li>Contacto</li></a> 
+        </ul>
+
+        <p style="color: #fff; font-family:Arial,
+         Helvetica, sans-serif; font-size:large; margin-left: 40%;">Todos Los Derechos Reservados ©</p>
+    </footer>  
+    <script>
+        function navigateToCity() {
+            const citySelect= document.getElementById("city");
+            const selectedValue= citySelect.value;
+
+            if(selectedValue) {
+                window.location.href= selectedValue;
+            }
+        }
+    </script>
+</body>
+</html>
